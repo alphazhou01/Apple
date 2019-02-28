@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="apple.yj.com.pojo">
+    <class name="Project" table="TE_XM_XMJBXX">
+        <meta attribute="class-description">This class contains the employee detail.</meta>
+        <!-- 定义主键字段 -->
+        <id name="id" column="F_ID" type="int">
+           <generator class="increment" />
+        </id>
+        <!-- 其它变通字段 -->
+        <property name="pid"       column="F_XMJC" type="string" />
+        <property name="name"      column="F_NAME" type="string" />
+        <property name="code"      column="F_CODE" type="string" />
+        <property name="fullcode"  column="F_FULL_CODE" type="string" />
+        <property name="isleaf"    column="F_IS_LEAF" type="int" />
+        <property name="orderno"   column="F_ORDER_NO" type="int" />
+        <property name="level"     column="F_LEVEL" type="int" />
+        <property name="isbizcomponent" column="F_IS_BIZ_COMPONENT" type="int" />
+        <property name="issystem"       column="F_IS_SYSTEM" type="int" />
+        <property name="status"         column="F_STATUS" type="int" />
+    </class>
+</hibernate-mapping>

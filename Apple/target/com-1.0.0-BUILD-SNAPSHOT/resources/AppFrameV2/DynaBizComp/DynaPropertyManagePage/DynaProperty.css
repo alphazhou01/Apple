@@ -1,0 +1,12 @@
+﻿.x-form-check-wrap
+{
+    white-space: nowrap;
+}
+
+.x-panel-fieldSet
+{
+    margin-left: 20px;
+    border-left: #CCCCCC 1px solid;
+    border-right: #CCCCCC 1px solid;
+    border-bottom: #CCCCCC 1px solid;
+}

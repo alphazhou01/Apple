@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="res_0_DynaBizInfoManagePage.Title" xml:space="preserve">
+		<value>动态业务组件管理</value>
+	</data>
+	<data name="res_1_DynaBizInfoManagePage.Title" xml:space="preserve">
+		<value>动态业务组件管理</value>
+	</data>
+	<data name="res_2_actAddBizInfo.Text" xml:space="preserve">
+		<value>新建</value>
+	</data>
+	<data name="res_3_actEditBizInfo.Text" xml:space="preserve">
+		<value>编辑</value>
+	</data>
+	<data name="res_4_actDeleteBizInfo.Text" xml:space="preserve">
+		<value>删除</value>
+	</data>
+	<data name="res_5_actPublish.Text" xml:space="preserve">
+		<value>发布</value>
+	</data>
+	<data name="res_6_actSetProperty.Text" xml:space="preserve">
+		<value>下一步</value>
+	</data>
+	<data name="res_7_actSetModule.Text" xml:space="preserve">
+		<value>上一步</value>
+	</data>
+	<data name="res_8_actSaveInfo.Text" xml:space="preserve">
+		<value>完成</value>
+	</data>
+	<data name="res_9_actAddProperty.Text" xml:space="preserve">
+		<value>新增</value>
+	</data>
+	<data name="res_10_actEditProperty.Text" xml:space="preserve">
+		<value>编辑</value>
+	</data>
+	<data name="res_11_actRemoveProperty.Text" xml:space="preserve">
+		<value>移除</value>
+	</data>
+	<data name="res_12_actCancel.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_13_actSaveProperty.Text" xml:space="preserve">
+		<value>保存</value>
+	</data>
+	<data name="res_14_actCancelProperty.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_15_actSavePropertys.Text" xml:space="preserve">
+		<value>保存并继续</value>
+	</data>
+	<data name="res_16_actOk.Text" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="res_17_actSetReferenceInfo.Text" xml:space="preserve">
+		<value>设置参照</value>
+	</data>
+	<data name="res_18_actRemoveReference.Text" xml:space="preserve">
+		<value>取消参照</value>
+	</data>
+	<data name="res_19_actSaveReferenceInfo.Text" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="res_20_actCancelReference.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_21_actAddProMaping.Text" xml:space="preserve">
+		<value>添加映射</value>
+	</data>
+	<data name="res_22_actRemoveProMapping.Text" xml:space="preserve">
+		<value>移除映射</value>
+	</data>
+	<data name="res_23_actAddPageParam.Text" xml:space="preserve">
+		<value>添加参数</value>
+	</data>
+	<data name="res_24_actRemovePageParam.Text" xml:space="preserve">
+		<value>移除参数</value>
+	</data>
+	<data name="res_25_actSelectProperties.Text" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="res_26_actCancelSelect.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_27_actMoveUp.Text" xml:space="preserve">
+		<value>上移</value>
+	</data>
+	<data name="res_28_actMoveDown.Text" xml:space="preserve">
+		<value>下移</value>
+	</data>
+	<data name="res_31_actUpgrade.Text" xml:space="preserve">
+		<value>升级</value>
+	</data>
+	<data name="res_31_actUpgrade.Tooltip" xml:space="preserve">
+		<value>升级业务组件</value>
+	</data>
+	<data name="res_32_actUpdateBizInfo.Text" xml:space="preserve">
+		<value>保存</value>
+	</data>
+	<data name="res_33_actCancelUpdate.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_34_actSetBizInfo.Text" xml:space="preserve">
+		<value>编辑</value>
+	</data>
+	<data name="res_39_btnAddBizInfo.Text" xml:space="preserve">
+		<value>新建</value>
+	</data>
+	<data name="res_40_btnSetBizInfo.Text" xml:space="preserve">
+		<value>编辑</value>
+	</data>
+	<data name="res_41_btnDeleteBizInfo.Text" xml:space="preserve">
+		<value>删除</value>
+	</data>
+	<data name="res_42_btnPublish.Text" xml:space="preserve">
+		<value>发布</value>
+	</data>
+	<data name="res_43_btnUpgrade.Tooltip" xml:space="preserve">
+		<value>升级业务组件</value>
+	</data>
+	<data name="res_43_btnUpgrade.Text" xml:space="preserve">
+		<value>升级</value>
+	</data>
+	<data name="res_44_col_Alias.Header" xml:space="preserve">
+		<value>模块名称</value>
+	</data>
+	<data name="res_45_col_Nane.Header" xml:space="preserve">
+		<value>模块编码</value>
+	</data>
+	<data name="res_46_col_Path.Header" xml:space="preserve">
+		<value>模块树路径</value>
+	</data>
+	<data name="res_47_col_ModifiedTime.Header" xml:space="preserve">
+		<value>创建时间</value>
+	</data>
+	<data name="res_48_col_IsPublish.Header" xml:space="preserve">
+		<value>已发布</value>
+	</data>
+	<data name="res_49_col_Remark.Header" xml:space="preserve">
+		<value>备注</value>
+	</data>
+	<data name="res_50_editWindow.Title" xml:space="preserve">
+		<value>新增业务</value>
+	</data>
+	<data name="res_53_entityListView.Title" xml:space="preserve">
+		<value>业务实体</value>
+	</data>
+	<data name="res_54_col_EntityAlias.Header" xml:space="preserve">
+		<value>业务实体</value>
+	</data>
+	<data name="res_57_Efd_BizAlias.FieldLabel" xml:space="preserve">
+		<value>业务名称</value>
+	</data>
+	<data name="res_58_Efd_BizName.FieldLabel" xml:space="preserve">
+		<value>业务编码</value>
+	</data>
+	<data name="res_59_Efd_OriginalBizAlias.FieldLabel" xml:space="preserve">
+		<value>模板名称</value>
+	</data>
+	<data name="res_60_Efd_Path.FieldLabel" xml:space="preserve">
+		<value>模块树路径</value>
+	</data>
+	<data name="res_62_Efd_IsAuthShare.FieldLabel" xml:space="preserve">
+		<value>支持权限共享</value>
+	</data>
+	<data name="res_62_Efd_IsAuthShare.BoxLabel" xml:space="preserve">
+		<value>支持权限共享</value>
+	</data>
+	<data name="res_63_Efd_Remark.FieldLabel" xml:space="preserve">
+		<value>备注</value>
+	</data>
+	<data name="res_64_propertyListView.Title" xml:space="preserve">
+		<value>业务属性</value>
+	</data>
+	<data name="res_65_btnAddProperty.Text" xml:space="preserve">
+		<value>新增</value>
+	</data>
+	<data name="res_66_btnEditProperty.Text" xml:space="preserve">
+		<value>编辑</value>
+	</data>
+	<data name="res_67_btnRemoveProperty.Text" xml:space="preserve">
+		<value>移除</value>
+	</data>
+	<data name="res_68_btnSetReferenceInfo.Text" xml:space="preserve">
+		<value>设置参照</value>
+	</data>
+	<data name="res_69_btnRemoveReference.Text" xml:space="preserve">
+		<value>取消参照</value>
+	</data>
+	<data name="res_70_sbMoveUp.Text" xml:space="preserve">
+		<value>上移</value>
+	</data>
+	<data name="res_71_gridView_toolbar_sbMoveUp_menu.Text" xml:space="preserve">
+		<value>上移一层</value>
+	</data>
+	<data name="res_72_gridView_toolbar_sbMoveUp_menu1.Text" xml:space="preserve">
+		<value>置于顶层</value>
+	</data>
+	<data name="res_73_sbMoveDown.Text" xml:space="preserve">
+		<value>下移</value>
+	</data>
+	<data name="res_74_gridView_toolbar_sbMoveDown_menu.Text" xml:space="preserve">
+		<value>下移一层</value>
+	</data>
+	<data name="res_75_gridView_toolbar_sbMoveDown_menu1.Text" xml:space="preserve">
+		<value>置于底层</value>
+	</data>
+	<data name="res_76_btnPMoveUp.Text" xml:space="preserve">
+		<value>上移</value>
+	</data>
+	<data name="res_77_btnPMoveDown.Text" xml:space="preserve">
+		<value>下移</value>
+	</data>
+	<data name="res_78_col_NameAlias.Header" xml:space="preserve">
+		<value>显示名称</value>
+	</data>
+	<data name="res_79_col_DataType.Header" xml:space="preserve">
+		<value>数据类型</value>
+	</data>
+	<data name="res_80_col_IsRef.Header" xml:space="preserve">
+		<value>参照</value>
+	</data>
+	<data name="res_81_col_IsNotNullable.Header" xml:space="preserve">
+		<value>必填</value>
+	</data>
+	<data name="res_82_col_IsReadOnly.Header" xml:space="preserve">
+		<value>只读</value>
+	</data>
+	<data name="res_83_col_IsQuery.Header" xml:space="preserve">
+		<value>列表显示</value>
+	</data>
+	<data name="res_84_col_IsFilter.Header" xml:space="preserve">
+		<value>可过滤</value>
+	</data>
+	<data name="res_85_col_IsOrder.Header" xml:space="preserve">
+		<value>可排序</value>
+	</data>
+	<data name="res_87_btn_actSetProperty.Text" xml:space="preserve">
+		<value>下一步</value>
+	</data>
+	<data name="res_88_btn_actCancel.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_89_btn_actSetModule.Text" xml:space="preserve">
+		<value>上一步</value>
+	</data>
+	<data name="res_90_btn_actSaveInfo.Text" xml:space="preserve">
+		<value>完成</value>
+	</data>
+	<data name="res_91_btnCancel2.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_92_propertyWindow.Title" xml:space="preserve">
+		<value>字段设置</value>
+	</data>
+	<data name="res_96_Efd_PropertyAlias.FieldLabel" xml:space="preserve">
+		<value>显示名称</value>
+	</data>
+	<data name="res_97_Efd_PropertyName.FieldLabel" xml:space="preserve">
+		<value>属性编码</value>
+	</data>
+	<data name="res_98_Efd_DataType.FieldLabel" xml:space="preserve">
+		<value>数据类型</value>
+	</data>
+	<data name="res_99_listItem.Text" xml:space="preserve">
+		<value>文本</value>
+	</data>
+	<data name="res_100_listItem1.Text" xml:space="preserve">
+		<value>整数</value>
+	</data>
+	<data name="res_101_listItem2.Text" xml:space="preserve">
+		<value>小数</value>
+	</data>
+	<data name="res_102_listItem3.Text" xml:space="preserve">
+		<value>是否</value>
+	</data>
+	<data name="res_103_listItem4.Text" xml:space="preserve">
+		<value>日期</value>
+	</data>
+	<data name="res_104_listItem5.Text" xml:space="preserve">
+		<value>字典</value>
+	</data>
+	<data name="res_108_Efd_Length.FieldLabel" xml:space="preserve">
+		<value>长度</value>
+	</data>
+	<data name="res_109_Efd_IsMulti.FieldLabel" xml:space="preserve">
+		<value>多行文本</value>
+	</data>
+	<data name="res_111_Efd_MinLong.FieldLabel" xml:space="preserve">
+		<value>最小值</value>
+	</data>
+	<data name="res_112_Efd_MaxLong.FieldLabel" xml:space="preserve">
+		<value>最大值</value>
+	</data>
+	<data name="res_113_Efd_UseThousandsLong.FieldLabel" xml:space="preserve">
+		<value>显示千分位</value>
+	</data>
+	<data name="res_113_Efd_UseThousandsLong.BoxLabel" xml:space="preserve">
+		<value>显示千分位</value>
+	</data>
+	<data name="res_115_Efd_AllowNegativeLong.FieldLabel" xml:space="preserve">
+		<value>允许负数</value>
+	</data>
+	<data name="res_115_Efd_AllowNegativeLong.BoxLabel" xml:space="preserve">
+		<value>允许负数</value>
+	</data>
+	<data name="res_118_Efd_Scale.FieldLabel" xml:space="preserve">
+		<value>小数位数</value>
+	</data>
+	<data name="res_119_Efd_DisplayDecimalPrecision.FieldLabel" xml:space="preserve">
+		<value>显示位数</value>
+	</data>
+	<data name="res_120_Efd_MinDecimal.FieldLabel" xml:space="preserve">
+		<value>最小值</value>
+	</data>
+	<data name="res_121_Efd_MaxDecimal.FieldLabel" xml:space="preserve">
+		<value>最大值</value>
+	</data>
+	<data name="res_122_Efd_MoneySymbolic.FieldLabel" xml:space="preserve">
+		<value>货币符号</value>
+	</data>
+	<data name="res_123_listItem.Text" xml:space="preserve">
+		<value>&#165;</value>
+	</data>
+	<data name="res_124_listItem1.Text" xml:space="preserve">
+		<value>$</value>
+	</data>
+	<data name="res_125_listItem2.Text" xml:space="preserve">
+		<value>&#163;</value>
+	</data>
+	<data name="res_126_listItem3.Text" xml:space="preserve">
+		<value>€</value>
+	</data>
+	<data name="res_127_Efd_IsShowPad.FieldLabel" xml:space="preserve">
+		<value>末位补零</value>
+	</data>
+	<data name="res_127_Efd_IsShowPad.BoxLabel" xml:space="preserve">
+		<value>末位补零</value>
+	</data>
+	<data name="res_128_Efd_AllowNegativeDecimal.FieldLabel" xml:space="preserve">
+		<value>允许负数</value>
+	</data>
+	<data name="res_128_Efd_AllowNegativeDecimal.BoxLabel" xml:space="preserve">
+		<value>允许负数</value>
+	</data>
+	<data name="res_129_Efd_UseThousandsDecimal.FieldLabel" xml:space="preserve">
+		<value>显示千分位</value>
+	</data>
+	<data name="res_129_Efd_UseThousandsDecimal.BoxLabel" xml:space="preserve">
+		<value>显示千分位</value>
+	</data>
+	<data name="res_132_Efd_DateFormat.FieldLabel" xml:space="preserve">
+		<value>日期格式</value>
+	</data>
+	<data name="res_133_listItem.Text" xml:space="preserve">
+		<value>Y-m-d</value>
+	</data>
+	<data name="res_134_listItem1.Text" xml:space="preserve">
+		<value>m/d/Y</value>
+	</data>
+	<data name="res_135_listItem2.Text" xml:space="preserve">
+		<value>n/j/Y</value>
+	</data>
+	<data name="res_136_listItem3.Text" xml:space="preserve">
+		<value>Y年m月d日</value>
+	</data>
+	<data name="res_137_listItem4.Text" xml:space="preserve">
+		<value>Y年n月j日</value>
+	</data>
+	<data name="res_138_listItem5.Text" xml:space="preserve">
+		<value>Y-m-d (星期l)</value>
+	</data>
+	<data name="res_139_listItem6.Text" xml:space="preserve">
+		<value>Y年m月d日 H时i分</value>
+	</data>
+	<data name="res_140_listItem7.Text" xml:space="preserve">
+		<value>Y年m月d日 H时i分s秒</value>
+	</data>
+	<data name="res_141_listItem8.Text" xml:space="preserve">
+		<value>j日G时</value>
+	</data>
+	<data name="res_142_listItem9.Text" xml:space="preserve">
+		<value>H:i</value>
+	</data>
+	<data name="res_143_listItem10.Text" xml:space="preserve">
+		<value>H:i:s</value>
+	</data>
+	<data name="res_144_listItem11.Text" xml:space="preserve">
+		<value>H时i分</value>
+	</data>
+	<data name="res_146_Efd_TypeAlias.FieldLabel" xml:space="preserve">
+		<value>对应字典</value>
+	</data>
+	<data name="res_147_Efd_IsCollection.FieldLabel" xml:space="preserve">
+		<value>允许多选</value>
+	</data>
+	<data name="res_148_Efd_IsEditable.FieldLabel" xml:space="preserve">
+		<value>允许编辑</value>
+	</data>
+	<data name="res_151_Efd_DefaultValue.FieldLabel" xml:space="preserve">
+		<value>默认值</value>
+	</data>
+	<data name="res_152_Efd_btnDefaultValue.Text" xml:space="preserve">
+		<value>高级</value>
+	</data>
+	<data name="res_153_Efd_FormulaValue.FieldLabel" xml:space="preserve">
+		<value>计算表达式</value>
+	</data>
+	<data name="res_154_Efd_btnFormulaValue.Text" xml:space="preserve">
+		<value>高级</value>
+	</data>
+	<data name="res_157_styleEntityView_category_R1C1_.FieldLabel" xml:space="preserve">
+		<value>表单设置</value>
+	</data>
+	<data name="res_157_styleEntityView_category_R1C1_.Text" xml:space="preserve">
+		<value>表单设置</value>
+	</data>
+	<data name="res_158_Efd_IsManualField.FieldLabel" xml:space="preserve">
+		<value>人工录入</value>
+	</data>
+	<data name="res_158_Efd_IsManualField.BoxLabel" xml:space="preserve">
+		<value>人工录入</value>
+	</data>
+	<data name="res_160_Efd_IsNullable.FieldLabel" xml:space="preserve">
+		<value>允许为空</value>
+	</data>
+	<data name="res_160_Efd_IsNullable.BoxLabel" xml:space="preserve">
+		<value>允许为空</value>
+	</data>
+	<data name="res_161_Efd_IsReadOnly.FieldLabel" xml:space="preserve">
+		<value>只读</value>
+	</data>
+	<data name="res_161_Efd_IsReadOnly.BoxLabel" xml:space="preserve">
+		<value>只读</value>
+	</data>
+	<data name="res_162_Efd_IsHideComponent.FieldLabel" xml:space="preserve">
+		<value>隐藏控件</value>
+	</data>
+	<data name="res_162_Efd_IsHideComponent.BoxLabel" xml:space="preserve">
+		<value>隐藏控件</value>
+	</data>
+	<data name="res_163_Efd_RowSpan.FieldLabel" xml:space="preserve">
+		<value>行跨度</value>
+	</data>
+	<data name="res_164_Efd_ColumnSpan.FieldLabel" xml:space="preserve">
+		<value>列跨度</value>
+	</data>
+	<data name="res_165_styleEntityView_category_R7C1_.FieldLabel" xml:space="preserve">
+		<value>列表设置</value>
+	</data>
+	<data name="res_165_styleEntityView_category_R7C1_.Text" xml:space="preserve">
+		<value>列表设置</value>
+	</data>
+	<data name="res_166_Efd_IsQuery.FieldLabel" xml:space="preserve">
+		<value>列表显示</value>
+	</data>
+	<data name="res_166_Efd_IsQuery.BoxLabel" xml:space="preserve">
+		<value>列表显示</value>
+	</data>
+	<data name="res_168_Efd_GridColWidth.FieldLabel" xml:space="preserve">
+		<value>列表列宽</value>
+	</data>
+	<data name="res_169_Efd_FuzzyField.FieldLabel" xml:space="preserve">
+		<value>快速查询</value>
+	</data>
+	<data name="res_169_Efd_FuzzyField.BoxLabel" xml:space="preserve">
+		<value>支持快速查询</value>
+	</data>
+	<data name="res_170_Efd_IsFilter.FieldLabel" xml:space="preserve">
+		<value>支持过滤</value>
+	</data>
+	<data name="res_170_Efd_IsFilter.BoxLabel" xml:space="preserve">
+		<value>支持过滤</value>
+	</data>
+	<data name="res_171_Efd_IsOrder.FieldLabel" xml:space="preserve">
+		<value>支持排序</value>
+	</data>
+	<data name="res_171_Efd_IsOrder.BoxLabel" xml:space="preserve">
+		<value>支持排序</value>
+	</data>
+	<data name="res_173_btnOk.Text" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="res_174_btnSaveProperty.Text" xml:space="preserve">
+		<value>添加</value>
+	</data>
+	<data name="res_175_btnSavePropertys.Text" xml:space="preserve">
+		<value>添加并继续</value>
+	</data>
+	<data name="res_176_btnCancelProperty.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_177_windowView.Title" xml:space="preserve">
+		<value>参照设置</value>
+	</data>
+	<data name="res_181_Efd_RefPageAlias.FieldLabel" xml:space="preserve">
+		<value>参照页面</value>
+	</data>
+	<data name="res_182_Efd_RefRemark.FieldLabel" xml:space="preserve">
+		<value>描述</value>
+	</data>
+	<data name="res_183_Efd_IsEditable2.FieldLabel" xml:space="preserve">
+		<value>允许编辑</value>
+	</data>
+	<data name="res_186_tabView_tab.Title" xml:space="preserve">
+		<value>属性映射</value>
+	</data>
+	<data name="res_188_btnAddPropertyMap.Text" xml:space="preserve">
+		<value>添加映射</value>
+	</data>
+	<data name="res_189_btnRemoveMap.Text" xml:space="preserve">
+		<value>移除映射</value>
+	</data>
+	<data name="res_190_col_PropertyAlias.Header" xml:space="preserve">
+		<value>回填属性</value>
+	</data>
+	<data name="res_191_col_SourceName.Header" xml:space="preserve">
+		<value>对应参数</value>
+	</data>
+	<data name="res_193_tabView_tab1.Title" xml:space="preserve">
+		<value>参数设置</value>
+	</data>
+	<data name="res_195_btnAddPageParam.Text" xml:space="preserve">
+		<value>添加参数</value>
+	</data>
+	<data name="res_196_btnRemoveParam.Text" xml:space="preserve">
+		<value>移除参数</value>
+	</data>
+	<data name="res_197_col_ParamAlias.Header" xml:space="preserve">
+		<value>参数</value>
+	</data>
+	<data name="res_198_col_ParamValue.Header" xml:space="preserve">
+		<value>参数值</value>
+	</data>
+	<data name="res_201_btn_actSaveReferenceInfo.Text" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="res_202_btn_actCancelReference.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_203_windowView1.Title" xml:space="preserve">
+		<value>选择映射属性</value>
+	</data>
+	<data name="res_205_btnSelect.Text" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="res_206_btnCancelSelect.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_207_col_PropertyAlias.Header" xml:space="preserve">
+		<value>名称</value>
+	</data>
+	<data name="res_208_col_PropertyName.Header" xml:space="preserve">
+		<value>编码</value>
+	</data>
+	<data name="res_209_bizEditWindow.Title" xml:space="preserve">
+		<value>信息维护</value>
+	</data>
+	<data name="res_211_btnUpdateBizInfo.Text" xml:space="preserve">
+		<value>保存</value>
+	</data>
+	<data name="res_212_btnCancelUpdate.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_213_Efd_E_BizAlias.FieldLabel" xml:space="preserve">
+		<value>业务名称</value>
+	</data>
+	<data name="res_214_Efd_E_BizName.FieldLabel" xml:space="preserve">
+		<value>业务编码</value>
+	</data>
+	<data name="res_215_Efd_E_Path.FieldLabel" xml:space="preserve">
+		<value>模块树路径</value>
+	</data>
+	<data name="res_216_Efd_E_Remark.FieldLabel" xml:space="preserve">
+		<value>备注</value>
+	</data>
+</root>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="hibernate.connection.password">zcl@2019</property>
+        <property name="hibernate.connection.url">jdbc:sqlserver://172.16.200.5:1438;DatabaseName=live1</property>
+        <property name="hibernate.connection.username">zhou</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+    </session-factory>
+</hibernate-configuration>

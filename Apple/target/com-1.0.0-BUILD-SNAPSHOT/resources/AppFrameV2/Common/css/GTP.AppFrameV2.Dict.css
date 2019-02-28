@@ -1,0 +1,36 @@
+﻿
+.blank-row-line .x-grid3-row
+{
+    /* border-color: #fff;*/
+    border: none;
+    font-weight: normal;
+}
+
+
+.blank-row-line .x-grid3-row-selected td
+{
+    /* background-color: #fff;*/
+    font-weight: bolder;
+}
+.x-grid3-cell-inner, .x-grid3-hd-inner
+{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* 修改字典维护框,底部工具栏颜色为灰色;*/
+.x-panel-tbar, .x-panel-bbar, .x-window-tbar, .x-window-bbar, .x-tab-panel-tbar, .x-tab-panel-bbar, .x-plain-tbar, .x-plain-bbar
+{
+    background-color: #f5f5f5;
+}
+
+/* 修改左树右表参照中,选择、取消选择，全选、全不选按钮样式;*/
+.x-lookup-select-button
+{
+    margin-left: -10px;
+    width: 50px;
+}
+.x-lookup-gridview
+{
+    margin: 10px;
+}

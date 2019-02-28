@@ -1,0 +1,139 @@
+.main-container
+{
+	width:100%;
+	padding-bottom:50px;
+	margin-top:62px;
+}
+.message-remind {
+   background: #4f5e6b; 
+   color: #fff;
+   line-height: 50px;
+   height: 50px;
+   font-size: 16px;
+   text-align: center;
+   
+}
+
+.list-group {
+	list-style: none;
+}
+
+.list-group li {
+	font-family:微软雅黑;
+	cursor:pointer;
+	color: #fff;
+}
+
+.controll-panel{
+	float: left;
+	width:180px;
+	background-color: #233646;
+	height: 649px;
+}
+
+.content-view{
+	float: left;
+	width:1045px;
+	background-color: #F3F2F2;
+	height: 649px;
+}
+
+#user-table table{
+	background-color:#ffffff;
+	width:100%;
+	border:1px #ff0000;
+}
+#user-table th{
+	width:200px;
+	background-color:#42b983;
+	font-size:18px;
+}
+
+#user-table td{
+}
+
+.tab{
+	height:30px;
+	margin:0px;
+	padding:0px;
+	border-bottom:1px solid #555555;
+	background:#aaaaaa;
+}
+
+.tab li{
+	list-style:none;
+	position:relative;
+	float:left;
+	width:100px;
+	height:30px;
+	border-right:1px solid  #aaaaaa;
+	border-bottom:1px solid  #aaaaaa;
+	line-height:30px;
+	text-align:center;
+}
+.tab li:hover{
+	background:#cccccc;
+}
+
+.tab li span:before {
+    content: "\f00d";
+    color:#ffffff;
+}
+
+.tab li span
+{
+	cursor:pointer;
+	position:relative;
+	float:right;
+}
+
+.active {
+	background:#333333
+}
+
+.active-content {
+	background:#fffff
+}
+
+.deactive {
+	display:none
+}
+
+.admin-content-footer{
+	position:absolute ;
+	bottom:0px;
+	width:100%;
+	background:#aaaaaa;
+	
+}
+
+.tabs-bd{
+	height:100%;
+	background:#dddddd;
+}
+
+#doc-tab-demo-1{
+	height:100%;
+	margin-bottom:50px;
+	margin-top:30px;
+}
+
+.tab{
+	position:absolute;
+	top:50px;
+	border-bottom:1px solid #cccccc;
+	width:100%;
+}
+
+.am-btn {
+	font-size:12px;
+}
+
+.admin-content-list li{
+	width:100px;
+}
+
+#dept-list th{
+	background:#A4D3EE;
+	border-left:1px solid #eeeeee
+}

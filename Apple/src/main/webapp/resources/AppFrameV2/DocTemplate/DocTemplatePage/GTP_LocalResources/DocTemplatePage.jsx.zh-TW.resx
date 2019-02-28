@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="res_9_Ap_TreeGrid_actCollapseAll.Text" xml:space="preserve">
+		<value>折疊</value>
+	</data>
+	<data name="res_9_Ap_TreeGrid_actCollapseAll.Tooltip" xml:space="preserve">
+		<value>全部折疊</value>
+	</data>
+	<data name="res_10_Ap_TreeGrid_actExpandAll.Text" xml:space="preserve">
+		<value>展開</value>
+	</data>
+	<data name="res_10_Ap_TreeGrid_actExpandAll.Tooltip" xml:space="preserve">
+		<value>展開</value>
+	</data>
+	<data name="res_15_Ap_TreeGrid_actMoveUp.Tooltip" xml:space="preserve">
+		<value>上移記錄</value>
+	</data>
+	<data name="res_16_Ap_TreeGrid_actMoveDown.Tooltip" xml:space="preserve">
+		<value>下移記錄</value>
+	</data>
+	<data name="res_17_Ap_TreeGrid_actUpGrade.Tooltip" xml:space="preserve">
+		<value>升級記錄</value>
+	</data>
+	<data name="res_18_Ap_TreeGrid_actDeGrade.Tooltip" xml:space="preserve">
+		<value>降級記錄</value>
+	</data>
+	<data name="res_19_Ap_TreeGrid_actMoveUp1.Tooltip" xml:space="preserve">
+		<value>上移記錄</value>
+	</data>
+	<data name="res_20_Ap_TreeGrid_actMoveDown1.Tooltip" xml:space="preserve">
+		<value>下移記錄</value>
+	</data>
+	<data name="res_21_Ap_TreeGrid_actUpGrade1.Tooltip" xml:space="preserve">
+		<value>升級記錄</value>
+	</data>
+	<data name="res_22_Ap_TreeGrid_actDeGrade1.Tooltip" xml:space="preserve">
+		<value>降級記錄</value>
+	</data>
+	<data name="res_29_actAddAttach.Text" xml:space="preserve">
+		<value>添加</value>
+	</data>
+	<data name="res_29_actAddAttach.Tooltip" xml:space="preserve">
+		<value>添加一個附件</value>
+	</data>
+	<data name="res_30_actAddAfterUploadFile.Text" xml:space="preserve">
+		<value>上傳</value>
+	</data>
+	<data name="res_30_actAddAfterUploadFile.Tooltip" xml:space="preserve">
+		<value>上傳附件</value>
+	</data>
+	<data name="res_31_actDeleteAttach.Text" xml:space="preserve">
+		<value>刪除</value>
+	</data>
+	<data name="res_31_actDeleteAttach.Tooltip" xml:space="preserve">
+		<value>刪除附件</value>
+	</data>
+	<data name="res_32_actDownLoadFile.Text" xml:space="preserve">
+		<value>下載</value>
+	</data>
+	<data name="res_32_actDownLoadFile.Tooltip" xml:space="preserve">
+		<value>下載附件</value>
+	</data>
+	<data name="res_33_actOpenFile.Text" xml:space="preserve">
+		<value>打開</value>
+	</data>
+	<data name="res_33_actOpenFile.Tooltip" xml:space="preserve">
+		<value>打開附件</value>
+	</data>
+	<data name="res_48_btn_LeftTree_ExpandTo.Tooltip" xml:space="preserve">
+		<value>展開</value>
+	</data>
+	<data name="res_48_btn_LeftTree_ExpandTo.Text" xml:space="preserve">
+		<value>展開</value>
+	</data>
+	<data name="res_51_MenuItem4.Text" xml:space="preserve">
+		<value>展開到4級</value>
+	</data>
+	<data name="res_52_MenuItem5.Text" xml:space="preserve">
+		<value>展開到5級</value>
+	</data>
+	<data name="res_54_btn_LeftTree_CollapseAll.Tooltip" xml:space="preserve">
+		<value>全部折疊</value>
+	</data>
+	<data name="res_54_btn_LeftTree_CollapseAll.Text" xml:space="preserve">
+		<value>折疊</value>
+	</data>
+	<data name="res_66_btn_RightTree_ExpandTo.Tooltip" xml:space="preserve">
+		<value>展開</value>
+	</data>
+	<data name="res_66_btn_RightTree_ExpandTo.Text" xml:space="preserve">
+		<value>展開</value>
+	</data>
+	<data name="res_72_btn_RightTree_CollapseAll.Tooltip" xml:space="preserve">
+		<value>折疊</value>
+	</data>
+	<data name="res_75_btn_RightTree_MoveUp.Tooltip" xml:space="preserve">
+		<value>上移記錄</value>
+	</data>
+	<data name="res_76_btn_RightTree_MoveDown.Tooltip" xml:space="preserve">
+		<value>下移記錄</value>
+	</data>
+	<data name="res_77_btn_RightTree_Degrade.Tooltip" xml:space="preserve">
+		<value>降級記錄</value>
+	</data>
+	<data name="res_78_btn_RightTree_Upgrade.Tooltip" xml:space="preserve">
+		<value>升級記錄</value>
+	</data>
+	<data name="res_90_btnDel.Tooltip" xml:space="preserve">
+		<value>刪除附件</value>
+	</data>
+	<data name="res_90_btnDel.Text" xml:space="preserve">
+		<value>刪除</value>
+	</data>
+	<data name="res_91_btnDownLoad.Tooltip" xml:space="preserve">
+		<value>下載附件</value>
+	</data>
+	<data name="res_91_btnDownLoad.Text" xml:space="preserve">
+		<value>下載</value>
+	</data>
+	<data name="res_92_btnOpen.Tooltip" xml:space="preserve">
+		<value>打開附件</value>
+	</data>
+	<data name="res_92_btnOpen.Text" xml:space="preserve">
+		<value>打開</value>
+	</data>
+</root>

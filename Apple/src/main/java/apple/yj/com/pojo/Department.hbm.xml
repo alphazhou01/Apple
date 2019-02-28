@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="apple.yj.com.pojo">
+<class name="Department" table="T_ORG_DEPT">
+   <id name="id" column="F_DEPT_ID" type="int">
+           <generator class="increment" />
+   </id>
+  <property name="F_UNIT_ID" column="F_UNIT_ID" type="int" />
+  <property name="F_PARENT_NODE_ID" column="F_PARENT_NODE_ID" type="int" />
+  <property name="F_PARENT_DEPT_ID" column="F_PARENT_DEPT_ID" type="int" />
+  <property name="F_NAME" column="F_NAME" type="string" />
+  <property name="F_CODE" column="F_CODE" type="string" />
+  <property name="F_INDEX_CODE" column="F_INDEX_CODE" type="string" />
+  <property name="F_FULL_DEPT_ID" column="F_FULL_DEPT_ID" type="string" />
+  <property name="F_FULL_DEPT_NAME" column="F_FULL_DEPT_NAME" type="string" />
+  <property name="F_STATE" column="F_STATE" type="string" />
+  <property name="F_NODE_TYPE" column="F_NODE_TYPE" type="string" />
+  <property name="F_NODE_LEVEL" column="F_NODE_LEVEL" type="int" />
+  <property name="F_SOURCE_DEPT_ID" column="F_SOURCE_DEPT_ID" type="int" />
+  <property name="F_SOURCE_PLATFORM_ID" column="F_SOURCE_PLATFORM_ID" type="int" />
+  <property name="F_IS_MAP_ORG" column="F_IS_MAP_ORG" type="boolean" />
+  <property name="F_DEPT_HSTR_ID" column="F_DEPT_HSTR_ID" type="int" />
+  <property name="F_ORDER_NUM" column="F_ORDER_NUM" type="int" />
+  <property name="F_LOCK_ON" column="F_LOCK_ON" type="boolean" />
+  <property name="F_LOCK_USER" column="F_LOCK_USER" type="int" />
+  <property name="F_LOCK_TIME" column="F_LOCK_TIME" type="date" />
+  <property name="F_SIGN_DATA" column="F_SIGN_DATA" type="string" />
+  <property name="F_IS_LEAF" column="F_IS_LEAF" type="boolean" />
+  <property name="F_LAST_UPDATE_TIME" column="F_LAST_UPDATE_TIME" type="date" />
+  <property name="F_CREATE_TIME" column="F_CREATE_TIME" type="date" />
+  <property name="F_PINYIN" column="F_PINYIN" type="string" />
+  <property name="F_JIANPIN" column="F_JIANPIN" type="string" />
+  <property name="F_DEPT_GROUP_ID" column="F_DEPT_GROUP_ID" type="int" />
+  <property name="F_DEPT_LEVEL_TYPE_ID" column="F_DEPT_LEVEL_TYPE_ID" type="int" />
+  <property name="F_QUOTAS" column="F_QUOTAS" type="int" />
+  <property name="F_SHORT_NAME" column="F_SHORT_NAME" type="string" />
+  <property name="F_EMAIL" column="F_EMAIL" type="string" />
+  <property name="F_IS_EXTERNAL_ORG" column="F_IS_EXTERNAL_ORG" type="int" />
+  <property name="F_FULL_NAME" column="F_FULL_NAME" type="string" />
+</class>
+</hibernate-mapping>

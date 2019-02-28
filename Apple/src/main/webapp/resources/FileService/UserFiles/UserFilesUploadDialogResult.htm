@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Result</title>
+    <script type="text/javascript">
+        function QueryString(Name) {
+            var sValue = location.search.match(new RegExp("[\?\&]" + Name + "=([^\&]*)(\&?)", "i"));
+            return sValue ? sValue[1] : sValue;
+        }
+
+        var result = QueryString("ufuResult");
+        var error = QueryString("ufuError");
+        if (error == null)
+            error = "";
+        error = decodeURIComponent(error);
+
+        if (parent && parent.UFU_UploadDialogFrameCallback)
+            parent.UFU_UploadDialogFrameCallback(result, error);
+
+        if (opener && opener.UFU_UploadDialogCallback)
+            opener.UFU_UploadDialogCallback(result, error);
+
+        window.close();
+    </script>
+</head>
+<body>
+</body>
+</html>

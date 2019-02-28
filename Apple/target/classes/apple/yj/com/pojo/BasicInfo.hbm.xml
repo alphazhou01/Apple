@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="apple.yj.com.pojo">
+<class name="BasicInfo" table="TE_XM_XMJBXX">
+
+  <id name="F_ID" column="F_ID" type="int">
+           <generator class="increment" />
+  </id>
+   <property name="F_XMJC" column="F_XMJC" type="string" />
+  <property name="F_XMZT" column="F_XMZT" type="string" />
+  <property name="F_XMZT_K" column="F_XMZT_K" type="string" />
+  <property name="F_SSFXM" column="F_SSFXM" type="string" />
+  <property name="F_GCDD" column="F_GCDD" type="string" />
+  <property name="F_ZDGC" column="F_ZDGC" type="string" />
+  <property name="F_ZDGC_K" column="F_ZDGC_K" type="string" />
+  <property name="F_XMJL" column="F_XMJL" type="string" />
+  <property name="F_XMFZR" column="F_XMFZR" type="string" />
+  <property name="F_JSDW" column="F_JSDW" type="string" />
+  <property name="F_SJDW" column="F_SJDW" type="string" />
+  <property name="F_JLDW" column="F_JLDW" type="string" />
+  <property name="F_GHXKZH" column="F_GHXKZH" type="string" />
+  <property name="F_SGXKZH" column="F_SGXKZH" type="string" />
+  <property name="F_XMJGBASJ" column="F_XMJGBASJ" type="date" />
+  <property name="F_HTKGRQ" column="F_HTKGRQ" type="date" />
+  <property name="F_HTJGRQ" column="F_HTJGRQ" type="date" />
+  <property name="F_HTGQT" column="F_HTGQT" type="int" />
+  <property name="F_SJKGRQ" column="F_SJKGRQ" type="date" />
+  <property name="F_SJWGRQ" column="F_SJWGRQ" type="date" />
+  <property name="F_SJGQT" column="F_SJGQT" type="int" />
+  <property name="F_XMGK" column="F_XMGK" type="string" />
+  <property name="F_IS_CHILD" column="F_IS_CHILD" type="boolean" />
+  <property name="F_JZMJM2" column="F_JZMJM2" type="int" />
+  <property name="F_YG" column="F_YG" type="int" />
+  <property name="F_CS" column="F_CS" type="string" />
+  <property name="F_CKDM" column="F_CKDM" type="int" />
+  <property name="F_BDQCKM" column="F_BDQCKM" type="int" />
+  <property name="F_JGLX" column="F_JGLX" type="string" />
+  <property name="F_JGLX_K" column="F_JGLX_K" type="string" />
+  <property name="F_GCYT" column="F_GCYT" type="string" />
+  <property name="F_GCYT_K" column="F_GCYT_K" type="string" />
+  <property name="F_GCLBZDRE_ID" column="F_GCLBZDRE_ID" type="int" />
+  <property name="F_JSGM" column="F_JSGM" type="int" />
+  <property name="F_JSGMDW" column="F_JSGMDW" type="string" />
+  <property name="F_XMJLID" column="F_XMJLID" type="int" />
+  <property name="F_XMXXGZ_ID" column="F_XMXXGZ_ID" type="int" />
+  <property name="F_SFZYXS" column="F_SFZYXS" type="boolean" />
+  <property name="F_NAME" column="F_NAME" type="string" />
+  <property name="F_FULL_CODE" column="F_FULL_CODE" type="string" />
+  <property name="F_PBS_ID" column="F_PBS_ID" type="int" />
+  <property name="F_MODULE_CODE" column="F_MODULE_CODE" type="string" />
+  <property name="F_MODULE_NAME" column="F_MODULE_NAME" type="string" />
+  <property name="F_JZBZ" column="F_JZBZ" type="boolean" />
+  <property name="F_PID" column="F_PID" type="int" />
+  <property name="F_RID" column="F_RID" type="int" />
+  <property name="F_CODE" column="F_CODE" type="string" />
+  <property name="F_BIZ_DATE" column="F_BIZ_DATE" type="date" />
+  <property name="F_STATE" column="F_STATE" type="string" />
+  <property name="F_DEPT_NAME" column="F_DEPT_NAME" type="string" />
+  <property name="F_CREATOR_NAME" column="F_CREATOR_NAME" type="string" />
+  <property name="F_CREATE_TIME" column="F_CREATE_TIME" type="date" />
+  <property name="F_EFFECTIVE" column="F_EFFECTIVE" type="boolean" />
+  <property name="F_HAS_ATTACH" column="F_HAS_ATTACH" type="boolean" />
+  <property name="F_LAST_UPDATE_TIME" column="F_LAST_UPDATE_TIME" type="date" />
+  <property name="F_LAST_UPDATE_USER_NAME" column="F_LAST_UPDATE_USER_NAME" type="string" />
+  <property name="F_REMARK" column="F_REMARK" type="string" />
+  <property name="F_DELETED" column="F_DELETED" type="boolean" />
+  <property name="F_TEMP_SAVED" column="F_TEMP_SAVED" type="boolean" />
+  <property name="F_GUID" column="F_GUID" type="string" />
+  <property name="F_SHARE_STATE" column="F_SHARE_STATE" type="string" />
+  <property name="F_AF_EXT1" column="F_AF_EXT1" type="string" />
+  <property name="F_AF_EXT2" column="F_AF_EXT2" type="string" />
+  <property name="F_AF_EXT3" column="F_AF_EXT3" type="string" />
+  <property name="F_DYZD_ID" column="F_DYZD_ID" type="int" />
+  <property name="F_GCLBZD_ID" column="F_GCLBZD_ID" type="int" />
+  <property name="F_SGXMBM_ID" column="F_SGXMBM_ID" type="int" />
+  <property name="F_SGDWBM_ID" column="F_SGDWBM_ID" type="int" />
+  <property name="F_DEPT_ID" column="F_DEPT_ID" type="int" />
+  <property name="F_CREATOR_ID" column="F_CREATOR_ID" type="int" />
+</class>
+</hibernate-mapping>

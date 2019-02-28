@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<actionLibrary>
+  <name>APF2_Report_Issue</name>
+  <isUserDefine>false</isUserDefine>
+  <isInherited>false</isInherited>
+  <alias>
+    <zh-CN>上报下发</zh-CN>
+  </alias>
+  <items>
+    <action>
+      <name>APF2_Report_Issue_actShare</name>
+      <description />
+      <isUserDefine>false</isUserDefine>
+      <isInherited>false</isInherited>
+      <alias>
+        <en>Share</en>
+        <zh-CN>共享</zh-CN>
+        <zh-TW>共享</zh-TW>
+      </alias>
+      <disabled>false</disabled>
+      <hidden>false</hidden>
+      <params>
+        <param>
+          <name>shareType</name>
+          <description>
+            <zh-CN>1:上报， 2：下发</zh-CN>
+          </description>
+          <isUserDefine>false</isUserDefine>
+          <isInherited>false</isInherited>
+          <alias />
+          <value>2</value>
+          <type>String</type>
+          <isRequired>false</isRequired>
+          <isCollection>false</isCollection>
+        </param>
+        <param>
+          <name>deptBizType</name>
+          <description>
+            <zh-CN>组织树业务级别类型，比如项目管理PM,多个类型用;分割</zh-CN>
+          </description>
+          <isUserDefine>false</isUserDefine>
+          <isInherited>false</isInherited>
+          <alias />
+          <value></value>
+          <type>String</type>
+          <isRequired>false</isRequired>
+          <isCollection>false</isCollection>
+        </param>
+      </params>
+      <handler>APF2_Report_Issue_actShare_Handler</handler>
+      <tooltip>
+        <en>Share</en>
+        <zh-CN>共享</zh-CN>
+        <zh-TW>共享</zh-TW>
+      </tooltip>
+      <isImported>false</isImported>
+      <icon>SYS:toolbar\GTP_sharing.png</icon>
+    </action>
+  </items>
+</actionLibrary>

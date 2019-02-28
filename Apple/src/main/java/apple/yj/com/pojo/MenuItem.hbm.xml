@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="apple.yj.com.pojo">
+    <class name="MenuItem" table="T_PTL_MENU_ITEM">
+        <meta attribute="class-description">This class contains the employee detail.</meta>
+        <!-- 定义主键字段 -->
+        <id name="id" column="F_ID" type="int">
+           <generator class="increment" />
+        </id>
+
+        <!-- 其它变通字段 -->
+        <property name="iscategory"     column="F_ISCATEGORY"     type="int" />
+        <property name="isfastmenu"     column="F_IS_FASTMENU"    type="int" />
+        <property name="fastmenu_order" column="F_FASTMENU_ORDER" type="int" />
+        <property name="newwindow"      column="F_NEWWINDOW"      type="int" />
+        <property name="deleted"        column="F_DELETED"    not-null="false"    type="int" /> 
+        <property name="pid"            column="F_PID"            type="int" />
+        <property name="compelte_name"  column="F_COMPLETE_NAME"  type="string" />
+        <property name="name"           column="F_NAME"           type="string" />
+        <property name="code"           column="F_CODE"           type="string" />
+        <property name="fullcode"       column="F_FULL_CODE"      type="string" />
+        <property name="is_leaf"        column="F_IS_LEAF"        type="int" />
+        <property name="order_no"       column="F_ORDER_NO"       type="int" />
+        <property name="level"          column="F_LEVEL"          type="int" />
+        <property name="module"         column="F_MODULE"         type="int" />
+        <property name="menu"           column="F_MENU"           type="int" />  
+    </class>
+</hibernate-mapping>

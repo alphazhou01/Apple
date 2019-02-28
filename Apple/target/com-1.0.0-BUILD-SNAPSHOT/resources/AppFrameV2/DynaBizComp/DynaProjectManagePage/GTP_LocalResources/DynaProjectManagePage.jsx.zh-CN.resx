@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="res_0_DynaProjectManagePage.Title" xml:space="preserve">
+		<value>弹性域方案管理页面</value>
+	</data>
+	<data name="res_1_DynaProjectManagePage.Title" xml:space="preserve">
+		<value>弹性域方案管理页面</value>
+	</data>
+	<data name="res_2_actView.Text" xml:space="preserve">
+		<value>查看</value>
+	</data>
+	<data name="res_3_actAddExtension.Text" xml:space="preserve">
+		<value>新增</value>
+	</data>
+	<data name="res_4_actAddStaticExtension.Text" xml:space="preserve">
+		<value>新增静态方案</value>
+	</data>
+	<data name="res_5_actEditExtension.Text" xml:space="preserve">
+		<value>编辑</value>
+	</data>
+	<data name="res_6_actDeleteExtension.Text" xml:space="preserve">
+		<value>删除</value>
+	</data>
+	<data name="res_7_actAccept.Text" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="res_8_actCancel.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+	<data name="res_9_actAddCondition.Text" xml:space="preserve">
+		<value>添加</value>
+	</data>
+	<data name="res_10_actRemoveCondition.Text" xml:space="preserve">
+		<value>移除</value>
+	</data>
+	<data name="res_11_actPublish.Text" xml:space="preserve">
+		<value>发布</value>
+	</data>
+	<data name="res_12_actSetProperty.Text" xml:space="preserve">
+		<value>配置属性</value>
+	</data>
+	<data name="res_15_actRefresh.Text" xml:space="preserve">
+		<value>刷新</value>
+	</data>
+	<data name="res_17_actBack.Text" xml:space="preserve">
+		<value>返回</value>
+	</data>
+	<data name="res_18_actEnable.Text" xml:space="preserve">
+		<value>启用</value>
+	</data>
+	<data name="res_19_actDisable.Text" xml:space="preserve">
+		<value>停用</value>
+	</data>
+	<data name="res_23_btnView.Text" xml:space="preserve">
+		<value>查看</value>
+	</data>
+	<data name="res_24_sbnAddExtension.Text" xml:space="preserve">
+		<value>新增</value>
+	</data>
+	<data name="res_25_SplitButton_menu.Text" xml:space="preserve">
+		<value>静态方案</value>
+	</data>
+	<data name="res_26_SplitButton_menu1.Text" xml:space="preserve">
+		<value>动态方案</value>
+	</data>
+	<data name="res_27_btnEditExtension.Text" xml:space="preserve">
+		<value>编辑</value>
+	</data>
+	<data name="res_28_btnDeleteExtension.Text" xml:space="preserve">
+		<value>删除</value>
+	</data>
+	<data name="res_29_btnEnable.Text" xml:space="preserve">
+		<value>启用</value>
+	</data>
+	<data name="res_30_btnDisable.Text" xml:space="preserve">
+		<value>停用</value>
+	</data>
+	<data name="res_31_btnSetProperty.Text" xml:space="preserve">
+		<value>属性配置</value>
+	</data>
+	<data name="res_32_col_IsPublished.Header" xml:space="preserve">
+		<value>状态</value>
+	</data>
+	<data name="res_33_col_ProjectName.Header" xml:space="preserve">
+		<value>方案名称</value>
+	</data>
+	<data name="res_34_col_BizCompAlias.Header" xml:space="preserve">
+		<value>所属业务模块</value>
+	</data>
+	<data name="res_35_col_EntityName.Header" xml:space="preserve">
+		<value>业务实体</value>
+	</data>
+	<data name="res_36_col_Conditions.Header" xml:space="preserve">
+		<value>生效条件</value>
+	</data>
+	<data name="res_37_col_ModifyTime.Header" xml:space="preserve">
+		<value>最后修改时间</value>
+	</data>
+	<data name="res_38_col_Remark.Header" xml:space="preserve">
+		<value>备注</value>
+	</data>
+	<data name="res_43_Efd_ExtensionName.FieldLabel" xml:space="preserve">
+		<value>方案名称</value>
+	</data>
+	<data name="res_44_Efd_EntityName.FieldLabel" xml:space="preserve">
+		<value>业务实体</value>
+	</data>
+	<data name="res_45_Efd_CopyExtension.FieldLabel" xml:space="preserve">
+		<value>复制新增</value>
+	</data>
+	<data name="res_46_Efd_ReferenceExtensionAlias.FieldLabel" xml:space="preserve">
+		<value>参照方案</value>
+	</data>
+	<data name="res_47_Efd_Remark.FieldLabel" xml:space="preserve">
+		<value>备注</value>
+	</data>
+	<data name="res_49_gridView1.Title" xml:space="preserve">
+		<value>生效条件</value>
+	</data>
+	<data name="res_50_btnAddCondition.Text" xml:space="preserve">
+		<value>添加</value>
+	</data>
+	<data name="res_51_btnRemoveCondition.Text" xml:space="preserve">
+		<value>移除</value>
+	</data>
+	<data name="res_52_col_PropertyAlias.Header" xml:space="preserve">
+		<value>属性名称</value>
+	</data>
+	<data name="res_54_col_OperatorType.Header" xml:space="preserve">
+		<value>运算符</value>
+	</data>
+	<data name="res_56_col_PropertyRenderValue.Header" xml:space="preserve">
+		<value>值</value>
+	</data>
+	<data name="res_59_btn_actAccept.Text" xml:space="preserve">
+		<value>确定</value>
+	</data>
+	<data name="res_60_btn_actCancel.Text" xml:space="preserve">
+		<value>取消</value>
+	</data>
+</root>

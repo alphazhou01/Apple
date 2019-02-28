@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="apple.yj.com.pojo">
+    <class name="department" table="T_ORG_DEPT">
+        <meta attribute="class-description">This class contains the employee detail.</meta>
+        <!-- 定义主键字段 -->
+        <id name="id" column="F_DEPT_ID" type="int">
+           <generator class="increment" />
+        </id>
+
+        <!-- 其它变通字段 -->
+        <property name="name" column="F_NAME" type="string" />
+        <property name="full_name" column="F_FULL_DEPT_NAME" type="string" />
+        <property name="parent_id" column="F_PARENT_DEPT_ID" type="int" />
+        <property name="state" column="F_STATE" type="int" />
+        <property name="level" column="F_NODE_LEVEL" type="int" />
+    </class>
+</hibernate-mapping>

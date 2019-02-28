@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+    <context:property-placeholder location="file:F:\workspace\workspace-sub\Apple\src\main\webapp\WEB-INF\classes\db.properties"/>
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="jdbcUrl" value="${jdbcUrl}"/>
+        <property name="driverClass" value="${driverClass}"/>
+        <property name="user" value="${user}"/>
+        <property name="password" value="${password}"/>
+        <property name="initialPoolSize" value="${initialPoolSize}"/>
+        <property name="maxPoolSize" value="${maxPoolSize}"/>
+    </bean>
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop> <!--hibernate根据实体自动生成数据库表-->
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>   <!--指定数据库方言-->
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>     <!--在控制台显示执行的数据库操作语句-->
+                <prop key="hibernate.format_sql">${hibernate.format_sql}</prop>     <!--在控制台显示执行的数据哭操作语句（格式）-->
+            </props>
+        </property>
+        <property name="mappingResources">
+        	<list>
+               <value>apple/yj/com/pojo/ModuleTree.hbm.xml</value>
+               <value>apple/yj/com/pojo/Menu.hbm.xml</value>
+               <value>apple/yj/com/pojo/MenuItem.hbm.xml</value>
+               <value>apple/yj/com/pojo/BasicInfo.hbm.xml</value>
+               <value>apple/yj/com/pojo/BasicInfoXGT.hbm.xml</value>
+               <value>apple/yj/com/pojo/AttachmentInfo.hbm.xml</value>
+               <value>apple/yj/com/pojo/Department.hbm.xml</value>
+        	</list>
+        </property>
+    </bean>
+    <context:component-scan base-package="apple.yj.com.util" />
+</beans>

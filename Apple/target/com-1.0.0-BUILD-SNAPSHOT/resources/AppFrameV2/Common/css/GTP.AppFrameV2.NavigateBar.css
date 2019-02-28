@@ -1,0 +1,97 @@
+﻿.back-to .back-top1
+{
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-left: 0px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: transparent url("../Images/navbar/sideToolbar_95787884.gif") -1px -62px no-repeat;
+}
+.back-to .back-top1:hover
+{
+    background-position: -74px -62px;
+}
+.back-to .back-top
+{
+    background: url("../Images/navbar/back-top.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    height: 50px;
+    margin-left: 10px;
+    outline: 0 none;
+    text-indent: -9999em;
+    width: 50px;
+}
+.back-to .back-top:hover
+{
+    background-position: -50px 0;
+}
+.bar-nav
+{
+    cursor: pointer;
+    font-family: 宋体;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: #333333;
+}
+.bar-close
+{
+    background-image: url("../Images/navbar/u226_normal.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    left: -8px;
+    top: 100px;
+    width: 18px;
+    height: 300px;
+    position: absolute;
+}
+.bar-top
+{
+    background-image: url("../Images/navbar/u228_normal.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    left: -3px;
+    top: -3px;
+    width: 186px;
+    height: 16px;
+    position: absolute;
+}
+.bar-bottom
+{
+    background-image: url("../Images/navbar/u228_normal.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    left: -3px;
+    top: -3px;
+    width: 186px;
+    height: 16px;
+    position: absolute;
+}
+
+/* 文档模板树图标样式;*/
+.x-tree-node-collapsed .x-docTempFolder-virtual-node
+{
+    background-image: url(/GTP/AppFrameV2/Common/Images/GTP_virtualfolder.png);
+}
+.x-tree-node-expanded .x-docTempFolder-virtual-node
+{
+    background-image: url(/GTP/AppFrameV2/Common/Images/GTP_virtualfileopen.png);
+}
+
+.x-tree-node-collapsed .x-docTempFolder-node
+{
+    background-image: url(/Common/images/tree/GTP_folder.png);
+}
+.x-tree-node-expanded .x-docTempFolder-node
+{
+    background-image: url(/Common/images/tree/GTP_folderopen.png);
+}
+
+.x-tree-node-leaf .x-docTempFolder-node
+{
+    background-image: url(/Common/images/tree/GTP_folder.png);
+}
